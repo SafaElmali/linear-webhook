@@ -1,0 +1,23 @@
+{
+  "name": "linear-webhook",
+  "version": "1.0.0",
+  "description": "Vercel serverless function to receive Linear webhooks and trigger GitHub repository_dispatch",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["linear", "webhook", "github", "vercel", "serverless"],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@vercel/node": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "vercel": "^32.0.0"
+  }
+}
