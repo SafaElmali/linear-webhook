@@ -1,7 +1,11 @@
 {
+  "version": 2,
   "functions": {
     "api/**/*.ts": {
       "runtime": "@vercel/node@3.0.0"
     }
-  }
+  },
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "installCommand": "pnpm install"
 }
